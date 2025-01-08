@@ -4,3 +4,6 @@
 *.ptx
 *.cubin
 *.fatbin
+
+# 忽略 build 文件夹及其内容
+/build/
