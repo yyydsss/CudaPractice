@@ -41,7 +41,7 @@
 },
 {
   "directory": "/home/yds/build/4_gemm",
-  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -lineinfo -x cu -c /home/yds/4_gemm/gemm_0.cu -o CMakeFiles/gemm_0.dir/gemm_0.cu.o",
-  "file": "/home/yds/4_gemm/gemm_0.cu"
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -lineinfo -x cu -c /home/yds/4_gemm/gemm_0_global.cu -o CMakeFiles/gemm_0_global.dir/gemm_0_global.cu.o",
+  "file": "/home/yds/4_gemm/gemm_0_global.cu"
 }
 ]

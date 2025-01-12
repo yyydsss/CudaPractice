@@ -1,4 +1,6 @@
 //ncu --set full -o /home/yds/3_transpose/transpose_1_report ./3_transpose/transpose_1
+//ncu --set full -o /home/yds/3_transpose/transpose_1_report ./3_transpose/transpose_1
+
 
 #include <iostream>
 #include <cuda_runtime.h>

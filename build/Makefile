@@ -208,17 +208,17 @@ transpose_1/fast:
 .PHONY : transpose_1/fast
 
 #=============================================================================
-# Target rules for targets named gemm_0
+# Target rules for targets named gemm_0_global
 
 # Build rule for target.
-gemm_0: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gemm_0
-.PHONY : gemm_0
+gemm_0_global: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gemm_0_global
+.PHONY : gemm_0_global
 
 # fast build rule for target.
-gemm_0/fast:
-	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/build
-.PHONY : gemm_0/fast
+gemm_0_global/fast:
+	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/build
+.PHONY : gemm_0_global/fast
 
 # Help Target
 help:
@@ -229,7 +229,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... elementwise"
-	@echo "... gemm_0"
+	@echo "... gemm_0_global"
 	@echo "... reduce_0"
 	@echo "... reduce_1"
 	@echo "... reduce_global"

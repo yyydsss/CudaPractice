@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "4_gemm/gemm_0"
+			"path" : "4_gemm/gemm_0_global"
 		}
 	],
 	"backtrace" : 1,
@@ -104,7 +104,7 @@
 			]
 		}
 	],
-	"id" : "gemm_0::@bbfd7601d8c02555335e",
+	"id" : "gemm_0_global::@bbfd7601d8c02555335e",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -150,8 +150,8 @@
 		],
 		"language" : "CUDA"
 	},
-	"name" : "gemm_0",
-	"nameOnDisk" : "gemm_0",
+	"name" : "gemm_0_global",
+	"nameOnDisk" : "gemm_0_global",
 	"paths" : 
 	{
 		"build" : "4_gemm",
@@ -172,7 +172,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "4_gemm/gemm_0.cu",
+			"path" : "4_gemm/gemm_0_global.cu",
 			"sourceGroupIndex" : 0
 		}
 	],

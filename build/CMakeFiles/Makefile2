@@ -143,7 +143,7 @@ clean: 4_gemm/clean
 # Directory level rules for directory 4_gemm
 
 # Recursive "all" directory target.
-4_gemm/all: 4_gemm/CMakeFiles/gemm_0.dir/all
+4_gemm/all: 4_gemm/CMakeFiles/gemm_0_global.dir/all
 .PHONY : 4_gemm/all
 
 # Recursive "preinstall" directory target.
@@ -151,7 +151,7 @@ clean: 4_gemm/clean
 .PHONY : 4_gemm/preinstall
 
 # Recursive "clean" directory target.
-4_gemm/clean: 4_gemm/CMakeFiles/gemm_0.dir/clean
+4_gemm/clean: 4_gemm/CMakeFiles/gemm_0_global.dir/clean
 .PHONY : 4_gemm/clean
 
 #=============================================================================
@@ -352,30 +352,30 @@ transpose_1: 3_transpose/CMakeFiles/transpose_1.dir/rule
 .PHONY : 3_transpose/CMakeFiles/transpose_1.dir/clean
 
 #=============================================================================
-# Target rules for target 4_gemm/CMakeFiles/gemm_0.dir
+# Target rules for target 4_gemm/CMakeFiles/gemm_0_global.dir
 
 # All Build rule for target.
-4_gemm/CMakeFiles/gemm_0.dir/all:
-	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/depend
-	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yds/build/CMakeFiles --progress-num=3,4 "Built target gemm_0"
-.PHONY : 4_gemm/CMakeFiles/gemm_0.dir/all
+4_gemm/CMakeFiles/gemm_0_global.dir/all:
+	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/depend
+	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yds/build/CMakeFiles --progress-num=3,4 "Built target gemm_0_global"
+.PHONY : 4_gemm/CMakeFiles/gemm_0_global.dir/all
 
 # Build rule for subdir invocation for target.
-4_gemm/CMakeFiles/gemm_0.dir/rule: cmake_check_build_system
+4_gemm/CMakeFiles/gemm_0_global.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yds/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_0.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_0_global.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yds/build/CMakeFiles 0
-.PHONY : 4_gemm/CMakeFiles/gemm_0.dir/rule
+.PHONY : 4_gemm/CMakeFiles/gemm_0_global.dir/rule
 
 # Convenience name for target.
-gemm_0: 4_gemm/CMakeFiles/gemm_0.dir/rule
-.PHONY : gemm_0
+gemm_0_global: 4_gemm/CMakeFiles/gemm_0_global.dir/rule
+.PHONY : gemm_0_global
 
 # clean rule for target.
-4_gemm/CMakeFiles/gemm_0.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/clean
-.PHONY : 4_gemm/CMakeFiles/gemm_0.dir/clean
+4_gemm/CMakeFiles/gemm_0_global.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/clean
+.PHONY : 4_gemm/CMakeFiles/gemm_0_global.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

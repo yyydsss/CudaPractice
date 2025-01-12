@@ -117,42 +117,42 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-4_gemm/CMakeFiles/gemm_0.dir/rule:
-	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_0.dir/rule
-.PHONY : 4_gemm/CMakeFiles/gemm_0.dir/rule
+4_gemm/CMakeFiles/gemm_0_global.dir/rule:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_0_global.dir/rule
+.PHONY : 4_gemm/CMakeFiles/gemm_0_global.dir/rule
 
 # Convenience name for target.
-gemm_0: 4_gemm/CMakeFiles/gemm_0.dir/rule
-.PHONY : gemm_0
+gemm_0_global: 4_gemm/CMakeFiles/gemm_0_global.dir/rule
+.PHONY : gemm_0_global
 
 # fast build rule for target.
-gemm_0/fast:
-	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/build
-.PHONY : gemm_0/fast
+gemm_0_global/fast:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/build
+.PHONY : gemm_0_global/fast
 
-gemm_0.o: gemm_0.cu.o
-.PHONY : gemm_0.o
+gemm_0_global.o: gemm_0_global.cu.o
+.PHONY : gemm_0_global.o
 
 # target to build an object file
-gemm_0.cu.o:
-	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/gemm_0.cu.o
-.PHONY : gemm_0.cu.o
+gemm_0_global.cu.o:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/gemm_0_global.cu.o
+.PHONY : gemm_0_global.cu.o
 
-gemm_0.i: gemm_0.cu.i
-.PHONY : gemm_0.i
+gemm_0_global.i: gemm_0_global.cu.i
+.PHONY : gemm_0_global.i
 
 # target to preprocess a source file
-gemm_0.cu.i:
-	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/gemm_0.cu.i
-.PHONY : gemm_0.cu.i
+gemm_0_global.cu.i:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/gemm_0_global.cu.i
+.PHONY : gemm_0_global.cu.i
 
-gemm_0.s: gemm_0.cu.s
-.PHONY : gemm_0.s
+gemm_0_global.s: gemm_0_global.cu.s
+.PHONY : gemm_0_global.s
 
 # target to generate assembly for a file
-gemm_0.cu.s:
-	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0.dir/build.make 4_gemm/CMakeFiles/gemm_0.dir/gemm_0.cu.s
-.PHONY : gemm_0.cu.s
+gemm_0_global.cu.s:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/gemm_0_global.cu.s
+.PHONY : gemm_0_global.cu.s
 
 # Help Target
 help:
@@ -162,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... gemm_0"
-	@echo "... gemm_0.o"
-	@echo "... gemm_0.i"
-	@echo "... gemm_0.s"
+	@echo "... gemm_0_global"
+	@echo "... gemm_0_global.o"
+	@echo "... gemm_0_global.i"
+	@echo "... gemm_0_global.s"
 .PHONY : help
 
 

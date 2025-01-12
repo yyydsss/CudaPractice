@@ -71,5 +71,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "0_elementwise/CMakeFiles/elementwise.dir/DependInfo.cmake"
   "3_transpose/CMakeFiles/transpose_naive.dir/DependInfo.cmake"
   "3_transpose/CMakeFiles/transpose_1.dir/DependInfo.cmake"
-  "4_gemm/CMakeFiles/gemm_0.dir/DependInfo.cmake"
+  "4_gemm/CMakeFiles/gemm_0_global.dir/DependInfo.cmake"
   )

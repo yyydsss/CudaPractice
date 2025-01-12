@@ -15,6 +15,6 @@
 /home/yds/build/3_transpose/CMakeFiles/transpose_1.dir
 /home/yds/build/3_transpose/CMakeFiles/edit_cache.dir
 /home/yds/build/3_transpose/CMakeFiles/rebuild_cache.dir
-/home/yds/build/4_gemm/CMakeFiles/gemm_0.dir
+/home/yds/build/4_gemm/CMakeFiles/gemm_0_global.dir
 /home/yds/build/4_gemm/CMakeFiles/edit_cache.dir
 /home/yds/build/4_gemm/CMakeFiles/rebuild_cache.dir
