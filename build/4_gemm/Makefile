@@ -130,6 +130,34 @@ gemm_0_global/fast:
 	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/build
 .PHONY : gemm_0_global/fast
 
+# Convenience name for target.
+4_gemm/CMakeFiles/gemm_1_shared.dir/rule:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_1_shared.dir/rule
+.PHONY : 4_gemm/CMakeFiles/gemm_1_shared.dir/rule
+
+# Convenience name for target.
+gemm_1_shared: 4_gemm/CMakeFiles/gemm_1_shared.dir/rule
+.PHONY : gemm_1_shared
+
+# fast build rule for target.
+gemm_1_shared/fast:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_1_shared.dir/build.make 4_gemm/CMakeFiles/gemm_1_shared.dir/build
+.PHONY : gemm_1_shared/fast
+
+# Convenience name for target.
+4_gemm/CMakeFiles/gemm_2.dir/rule:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4_gemm/CMakeFiles/gemm_2.dir/rule
+.PHONY : 4_gemm/CMakeFiles/gemm_2.dir/rule
+
+# Convenience name for target.
+gemm_2: 4_gemm/CMakeFiles/gemm_2.dir/rule
+.PHONY : gemm_2
+
+# fast build rule for target.
+gemm_2/fast:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_2.dir/build.make 4_gemm/CMakeFiles/gemm_2.dir/build
+.PHONY : gemm_2/fast
+
 gemm_0_global.o: gemm_0_global.cu.o
 .PHONY : gemm_0_global.o
 
@@ -154,6 +182,54 @@ gemm_0_global.cu.s:
 	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_0_global.dir/build.make 4_gemm/CMakeFiles/gemm_0_global.dir/gemm_0_global.cu.s
 .PHONY : gemm_0_global.cu.s
 
+gemm_1_shared.o: gemm_1_shared.cu.o
+.PHONY : gemm_1_shared.o
+
+# target to build an object file
+gemm_1_shared.cu.o:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_1_shared.dir/build.make 4_gemm/CMakeFiles/gemm_1_shared.dir/gemm_1_shared.cu.o
+.PHONY : gemm_1_shared.cu.o
+
+gemm_1_shared.i: gemm_1_shared.cu.i
+.PHONY : gemm_1_shared.i
+
+# target to preprocess a source file
+gemm_1_shared.cu.i:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_1_shared.dir/build.make 4_gemm/CMakeFiles/gemm_1_shared.dir/gemm_1_shared.cu.i
+.PHONY : gemm_1_shared.cu.i
+
+gemm_1_shared.s: gemm_1_shared.cu.s
+.PHONY : gemm_1_shared.s
+
+# target to generate assembly for a file
+gemm_1_shared.cu.s:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_1_shared.dir/build.make 4_gemm/CMakeFiles/gemm_1_shared.dir/gemm_1_shared.cu.s
+.PHONY : gemm_1_shared.cu.s
+
+gemm_2.o: gemm_2.cu.o
+.PHONY : gemm_2.o
+
+# target to build an object file
+gemm_2.cu.o:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_2.dir/build.make 4_gemm/CMakeFiles/gemm_2.dir/gemm_2.cu.o
+.PHONY : gemm_2.cu.o
+
+gemm_2.i: gemm_2.cu.i
+.PHONY : gemm_2.i
+
+# target to preprocess a source file
+gemm_2.cu.i:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_2.dir/build.make 4_gemm/CMakeFiles/gemm_2.dir/gemm_2.cu.i
+.PHONY : gemm_2.cu.i
+
+gemm_2.s: gemm_2.cu.s
+.PHONY : gemm_2.s
+
+# target to generate assembly for a file
+gemm_2.cu.s:
+	cd /home/yds/build && $(MAKE) $(MAKESILENT) -f 4_gemm/CMakeFiles/gemm_2.dir/build.make 4_gemm/CMakeFiles/gemm_2.dir/gemm_2.cu.s
+.PHONY : gemm_2.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +239,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... gemm_0_global"
+	@echo "... gemm_1_shared"
+	@echo "... gemm_2"
 	@echo "... gemm_0_global.o"
 	@echo "... gemm_0_global.i"
 	@echo "... gemm_0_global.s"
+	@echo "... gemm_1_shared.o"
+	@echo "... gemm_1_shared.i"
+	@echo "... gemm_1_shared.s"
+	@echo "... gemm_2.o"
+	@echo "... gemm_2.i"
+	@echo "... gemm_2.s"
 .PHONY : help
 
 
