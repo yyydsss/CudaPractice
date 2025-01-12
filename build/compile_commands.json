@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/yds/build/1_reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -x cu -c /home/yds/1_reduce/reduce_global.cu -o CMakeFiles/reduce_global.dir/reduce_global.cu.o",
+  "file": "/home/yds/1_reduce/reduce_global.cu"
+},
+{
+  "directory": "/home/yds/build/1_reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /home/yds/1_reduce/reduce_0.cu -o CMakeFiles/reduce_0.dir/reduce_0.cu.o",
+  "file": "/home/yds/1_reduce/reduce_0.cu"
+},
+{
+  "directory": "/home/yds/build/1_reduce",
+  "command": "/usr/bin/c++  -I/home/yds/include -isystem /usr/local/cuda/include -g -o CMakeFiles/reduce_0.dir/__/include/utils.cpp.o -c /home/yds/include/utils.cpp",
+  "file": "/home/yds/include/utils.cpp"
+},
+{
+  "directory": "/home/yds/build/1_reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /home/yds/1_reduce/reduce_1.cu -o CMakeFiles/reduce_1.dir/reduce_1.cu.o",
+  "file": "/home/yds/1_reduce/reduce_1.cu"
+},
+{
+  "directory": "/home/yds/build/1_reduce",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /home/yds/1_reduce/reduce_naive.cu -o CMakeFiles/reduce_naive.dir/reduce_naive.cu.o",
+  "file": "/home/yds/1_reduce/reduce_naive.cu"
+},
+{
+  "directory": "/home/yds/build/0_elementwise",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -x cu -c /home/yds/0_elementwise/elementwise.cu -o CMakeFiles/elementwise.dir/elementwise.cu.o",
+  "file": "/home/yds/0_elementwise/elementwise.cu"
+},
+{
+  "directory": "/home/yds/build/3_transpose",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -lineinfo -x cu -c /home/yds/3_transpose/transpose_naive.cu -o CMakeFiles/transpose_naive.dir/transpose_naive.cu.o",
+  "file": "/home/yds/3_transpose/transpose_naive.cu"
+},
+{
+  "directory": "/home/yds/build/3_transpose",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -lineinfo -x cu -c /home/yds/3_transpose/transpose_1.cu -o CMakeFiles/transpose_1.dir/transpose_1.cu.o",
+  "file": "/home/yds/3_transpose/transpose_1.cu"
+},
+{
+  "directory": "/home/yds/build/4_gemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  -I/home/yds/include -isystem=/usr/local/cuda/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -G -lineinfo -x cu -c /home/yds/4_gemm/gemm_0.cu -o CMakeFiles/gemm_0.dir/gemm_0.cu.o",
+  "file": "/home/yds/4_gemm/gemm_0.cu"
+}
+]

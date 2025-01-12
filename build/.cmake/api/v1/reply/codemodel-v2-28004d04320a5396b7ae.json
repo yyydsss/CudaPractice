@@ -1,0 +1,200 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1_reduce",
+					"jsonFile" : "directory-1_reduce-Debug-b7e3ce14957f595ff710.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "1_reduce",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "include",
+					"jsonFile" : "directory-include-Debug-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "0_elementwise",
+					"jsonFile" : "directory-0_elementwise-Debug-d8dfff7598f141141931.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "0_elementwise",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "3_transpose",
+					"jsonFile" : "directory-3_transpose-Debug-1d7db57922495fa56f79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "3_transpose",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "4_gemm",
+					"jsonFile" : "directory-4_gemm-Debug-6dd9977190238e0a1008.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "4_gemm",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "yangds",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "elementwise::@4b813607d80ca9e8da6e",
+					"jsonFile" : "target-elementwise-Debug-8f9cc45a2f38b138b227.json",
+					"name" : "elementwise",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gemm_0::@bbfd7601d8c02555335e",
+					"jsonFile" : "target-gemm_0-Debug-e4ab50e0898e6c5d2e28.json",
+					"name" : "gemm_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reduce_0::@0a91507b79117a308d68",
+					"jsonFile" : "target-reduce_0-Debug-4b7d1a6df607811f2360.json",
+					"name" : "reduce_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reduce_1::@0a91507b79117a308d68",
+					"jsonFile" : "target-reduce_1-Debug-cf0ceed8388ca196ff06.json",
+					"name" : "reduce_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reduce_global::@0a91507b79117a308d68",
+					"jsonFile" : "target-reduce_global-Debug-6de108f7f039fb7c5bc2.json",
+					"name" : "reduce_global",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "reduce_naive::@0a91507b79117a308d68",
+					"jsonFile" : "target-reduce_naive-Debug-7839739fad502db88483.json",
+					"name" : "reduce_naive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "transpose_1::@85558a1714ab63c5385c",
+					"jsonFile" : "target-transpose_1-Debug-65fbc4b22425e8b92588.json",
+					"name" : "transpose_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "transpose_naive::@85558a1714ab63c5385c",
+					"jsonFile" : "target-transpose_naive-Debug-f00f703299e602c75055.json",
+					"name" : "transpose_naive",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yds/build",
+		"source" : "/home/yds"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

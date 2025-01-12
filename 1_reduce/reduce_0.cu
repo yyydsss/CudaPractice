@@ -1,3 +1,7 @@
+
+// command
+// ncu --set full -o /home/yds/1_reduce/reduce_0_report ./1_reduce/reduce_0
+
 #include <cstdio>
 #include <cstdlib>
 #include <cuda_runtime.h>
@@ -126,6 +130,8 @@ __global__ void reduce4(float *d_in,float *d_out){
 }
 
 
+
+
 // 封装 CUDA 内核执行的函数
 void run_kernel(std::function<void(float*, float*)> kernel, int N, int blockSize, int gridSize) {
     // 分配主机内存
@@ -153,7 +159,7 @@ void run_kernel(std::function<void(float*, float*)> kernel, int N, int blockSize
 
     // 执行内核 100 次，并计算平均用时
     float totalKernelTime = 0.0f;
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < 5; i++) {
         // 记录内核执行开始时间
         cudaEventRecord(start);
 
